@@ -23,4 +23,27 @@ Backend is powered by **Node.js + Express**, providing APIs for authentication, 
 ---
 
 ## 📂 Project Structure
+mern-netflix-clone/
+│── backend/ # Express backend
+│ ├── server.js
+│ ├── routes/
+│ ├── models/
+│ └── controllers/
+│
+│── frontend/ # Vite + React frontend
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── store/ # Zustand store
+│ │ └── utils/
+│ └── vite.config.js
+│
+└── README.md
 
+🌟 **Features**
+
+🔐 User authentication (JWT)
+🎥 Browse movies & TV shows
+📺 Movie slider & categories
+⭐ Add to favorites
+📱 Responsive design with TailwindCSS
